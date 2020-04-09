@@ -1,8 +1,8 @@
 
 .draggable-content{
     width: 100%;
-    height: 90%;
-    background-color: rgb(255, 255, 255);
+    height: 95%;
+    background-color: white;
     -webkit-app-region: drag;
 }
 
@@ -23,16 +23,29 @@
     box-shadow: 3px 3px 3px #888281;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
+    color: white;
 }
 
 .down {
-    background-color: #FF0000;
+    background-color: #dd4b39;
 }
 
 .up {
-    background-color: rgb(8, 175, 36);
+    background-color: #00a65a;
 }
 
 .up > span {
     font-size: 10px;
+}
+
+.seed {
+    color:#adff2f;
+}
+
+.preferred {
+    color:#90d8f5
+}
+
+.iconContainer {
+    margin-top: 10px;
 }
